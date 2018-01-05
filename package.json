@@ -1,0 +1,18 @@
+{
+    "author": {
+        "email": "tboon@clearblade.com"
+    },
+    "clouds": [],
+    "description": "Data Table Portal UI Example based upon the DataTable.net framework",
+    "domains": [],
+    "gateways": [],
+    "image_url": "https://datatables.net/media/images/nav-dt.png",
+    "keywords": [],
+    "license": "",
+    "name": "Data_Table_Example_Portal",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [],
+    "things": [],
+    "version": "0.9"
+}
