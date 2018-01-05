@@ -1,0 +1,38 @@
+{
+    "Description": "Default role that is applied to all unauthenticated users",
+    "ID": "Anonymous",
+    "Name": "Anonymous",
+    "Permissions": {
+        "CodeServices": [],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "e8a9ffa40be6e5e8ccc0bcff9bfc01",
+                "Items": [],
+                "Level": 1,
+                "Name": "routeMetaData"
+            }
+        ],
+        "DevicesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 0
+        },
+        "Portals": [
+            {
+                "Level": 15,
+                "Name": "DataTable.net Portal",
+                "SystemKey": "eca4ffa40bf6e3a9f4ad83e1bc5d"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "SystemServices": null,
+        "Topics": [],
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}
