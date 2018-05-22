@@ -15,11 +15,11 @@
         "datasources": {
             "10815bd8-702f-46c3-ab02-3dd90260e500": {
                 "id": "10815bd8-702f-46c3-ab02-3dd90260e500",
-                "name": "routeMetaData",
+                "name": "routes",
                 "settings": {
                     "CALL_ON_LOAD": true,
                     "SUPPRESS_DATASOURCE_ERRORS": false,
-                    "collection_name": "routeMetaData",
+                    "collection_name": "routes",
                     "refresh_interval": 0
                 },
                 "type": "CB_COLLECTION"
@@ -195,8 +195,10 @@
             "Home": {
                 "lg": [
                     {
-                        "h": 2,
+                        "h": 4,
                         "i": "907def6e-6e51-4a74-8e48-6213fd87ee49",
+                        "moved": false,
+                        "static": false,
                         "w": 12,
                         "x": 0,
                         "y": 0
@@ -325,8 +327,29 @@
                             "borderColor": "#cccccc",
                             "fontColor": "#000000"
                         },
+                        "FILTERABLE_LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "FORM_WIDGET_COMPONENT": {
+                            "cardBackgroundColor": "#f5f5f5",
+                            "fontColor": "#000000",
+                            "sliderColor": "#6E8592",
+                            "titleColor": "#000000",
+                            "toggleColor": "#6E8592"
+                        },
                         "GOOGLE_MAP_WIDGET_COMPONENT": {
                             "mapTheme": ""
+                        },
+                        "GROUPING_LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
                         },
                         "LINE_CHART_WIDGET_COMPONENT": {
                             "brushStroke": "#6e8592",
@@ -443,7 +466,7 @@
                             "value": {
                                 "CSS": "",
                                 "HTML": "\u003cdiv class=\"container\"\u003e\n  \u003ctable cellpadding=\"0\" cellspacing=\"0\" border=\"0\" class=\"dataTable table table-striped\" id=\"dtTable\"\u003e\n              \u003cthead\u003e\n            \u003ctr\u003e\n                \u003cth\u003eItem ID\u003c/th\u003e\n                \u003cth\u003eRoute Name\u003c/th\u003e\n                \u003cth\u003eRoute Type\u003c/th\u003e\n                \u003cth\u003eAjax URI\u003c/th\u003e\n                \u003cth\u003eMap Icon URI\u003c/th\u003e\n            \u003c/tr\u003e\n        \u003c/thead\u003e\n  \u003c/table\u003e\n\u003c/div\u003e\n",
-                                "JavaScript": "//JavaScript\n//Convert data table to a list of objects to be mapped out\nvar ds = [];\nthis.datasource.forEach(function(record) {\n    ds.push(record.data);\n});\n\n\n//Column Map Definitions for the data\nvar columnMap = [{\n        \"data\": \"item_id\",\n        \"visible\": false,\n        \"searchable\": false\n    },\n    { \"data\": \"routeid\" },\n    {\n        \"data\": \"routetypename\",\n        \"searchable\": true\n    },\n    {\n        \"data\": \"vehicleuri\",\n        \"searchable\": true\n    },\n    {\n        \"data\": \"iconuri\",\n        \"searchable\": true\n    }\n];\n\n//Dispose of the table (can only initialize once or it will display an error)\nif ( $.fn.dataTable.isDataTable( '#dtTable' ) ) {\n    table = $('#dtTable').DataTable();\n    table.destroy();\n}\n\n//Table Configuration Properties\nvar displayTable;\ndisplayTable = $('#dtTable').DataTable({\n    colReorder: true,\n    dom: 'itfp',\n    buttons: [\n        //'colvis',\n        'csv',\n        'excel',\n        'print'\n    ],\n    \"sPaginationType\": \"simple_numbers\",\n    data: ds,\n    columns: columnMap\n});\n"
+                                "JavaScript": "//JavaScript\n//Convert data table to a list of objects to be mapped out\nvar ds = [];\nthis.datasource.forEach(function(record) {\n    ds.push(record.data);\n});\n\n\n//Column Map Definitions for the data\nvar columnMap = [{\n        \"data\": \"item_id\",\n        \"visible\": false,\n        \"searchable\": false\n    },\n    { \"data\": \"route_id\" },\n    {\n        \"data\": \"route_type_name\",\n        \"searchable\": true\n    },\n    {\n        \"data\": \"vehicle_uri\",\n        \"searchable\": true\n    },\n    {\n        \"data\": \"icon_uri\",\n        \"searchable\": true\n    }\n];\n\n//Dispose of the table (can only initialize once or it will display an error)\nif ( $.fn.dataTable.isDataTable( '#dtTable' ) ) {\n    table = $('#dtTable').DataTable();\n    table.destroy();\n}\n\n//Table Configuration Properties\nvar displayTable;\ndisplayTable = $('#dtTable').DataTable({\n    colReorder: true,\n    dom: 'itfp',\n    buttons: [\n        //'colvis',\n        'csv',\n        'excel',\n        'print'\n    ],\n    \"sPaginationType\": \"simple_numbers\",\n    data: ds,\n    columns: columnMap\n});\n"
                             }
                         }
                     }
@@ -516,8 +539,10 @@
         }
     },
     "description": "Sample Portal with https://datatables.net/ framework.",
-    "last_updated": "05 Jan 18 21:34 UTC",
-    "name": "DataTable.net Portal",
-    "system_key": "eca4ffa40bf6e3a9f4ad83e1bc5d",
+    "last_updated": "22 May 18 19:32 UTC",
+    "name": "DataTableDemo",
+    "permissions": 0,
+    "plugins": [],
+    "system_key": "babaa3b00bdca8b3c8f6a9969c46",
     "type": "v2"
 }
