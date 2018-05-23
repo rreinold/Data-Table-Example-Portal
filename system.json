@@ -1,9 +1,9 @@
 {
     "auth": true,
     "description": "Data Table Portal UI Example based upon the DataTable.net framework",
-    "messaging_url": "messaging.clearblade.com:1883",
-    "name": "Data Table Example Portal",
-    "platform_url": "https://platform.clearblade.com",
-    "system_key": "eca4ffa40bf6e3a9f4ad83e1bc5d",
-    "system_secret": "ECA4FFA40BC8A999A09CB98DB5C001"
+    "messaging_url": "staging.clearblade.com:1883",
+    "name": "data-table",
+    "platform_url": "https://staging.clearblade.com",
+    "system_key": "babaa3b00bdca8b3c8f6a9969c46",
+    "system_secret": "BABAA3B00BEAC9889FC7B7CFCFC801"
 }

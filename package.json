@@ -3,16 +3,16 @@
         "email": "tboon@clearblade.com"
     },
     "clouds": [],
-    "description": "Data Table Portal UI Example based upon the DataTable.net framework",
+    "description": "Using DataTable.net framework to visualize, search, and filter ClearBlade Collections",
     "domains": [],
     "gateways": [],
     "image_url": "https://i.imgur.com/itDaijo.png",
-    "keywords": [],
+    "keywords": ["table","search","searcable","excel","sheets","grid","visualize","pages","sort","datatable","database"],
     "license": "",
-    "name": "Data_Table_Example_Portal",
+    "name": "searchable-data-table",
     "private": false,
     "prog_lang": [],
     "protocols": [],
     "things": [],
-    "version": "0.9"
+    "version": "1.0.0"
 }

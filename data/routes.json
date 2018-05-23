@@ -1,0 +1,142 @@
+{
+    "app_id": "babaa3b00bdca8b3c8f6a9969c46",
+    "collection_id": "bac0a3b00bec89f9d6a0eae4804c",
+    "items": [
+        {
+            "icon_uri": "http://www.iconsdb.com/icons/download/color/006275/bus-16.png",
+            "item_id": "0a9e2591-7fab-43a6-9bab-bcdfe1917841",
+            "route_id": "77",
+            "route_type_name": "Bus",
+            "vehicle_uri": "/api/nextride/routes/77/vehicles"
+        },
+        {
+            "icon_uri": "http://www.iconsdb.com/icons/download/color/006275/bus-16.png",
+            "item_id": "21451c6f-22fd-4af7-823a-73cf47bb11ae",
+            "route_id": "62",
+            "route_type_name": "Bus",
+            "vehicle_uri": "/api/nextride/routes/62/vehicles"
+        },
+        {
+            "icon_uri": "http://www.iconsdb.com/icons/download/color/006275/bus-16.png",
+            "item_id": "33df4617-4c47-4e7c-aea5-b9258028c3dd",
+            "route_id": "72",
+            "route_type_name": "Bus",
+            "vehicle_uri": "/api/nextride/routes/72/vehicles"
+        },
+        {
+            "icon_uri": "http://www.iconsdb.com/icons/download/color/006275/bus-16.png",
+            "item_id": "5c600792-50a2-4b9e-b9ad-a36e09467c0a",
+            "route_id": "BOND",
+            "route_type_name": "Bus",
+            "vehicle_uri": "/api/nextride/routes/BOUND/vehicles"
+        },
+        {
+            "icon_uri": "http://www.iconsdb.com/icons/download/color/006275/bus-16.png",
+            "item_id": "646455f5-45d9-4fbe-91e5-5fa370531d1f",
+            "route_id": "72W",
+            "route_type_name": "Bus",
+            "vehicle_uri": "/api/nextride/routes/72W/vehicles"
+        },
+        {
+            "icon_uri": "http://www.iconsdb.com/icons/download/color/006275/bus-16.png",
+            "item_id": "6c50380c-397d-4776-af8a-b58addc8f89d",
+            "route_id": "19",
+            "route_type_name": "Bus",
+            "vehicle_uri": "/api/nextride/routes/19/vehicles"
+        },
+        {
+            "icon_uri": "http://www.iconsdb.com/icons/download/color/006275/bus-16.png",
+            "item_id": "97f0bcac-1ff2-429c-8057-c4c3f4bfc1e1",
+            "route_id": "1W",
+            "route_type_name": "Bus",
+            "vehicle_uri": "/api/nextride/routes/1W/vehicles"
+        },
+        {
+            "icon_uri": "http://www.iconsdb.com/icons/download/color/FFA87D/bus-16.png",
+            "item_id": "99f775ac-b18a-416b-a218-77b5030ecbc9",
+            "route_id": "100L",
+            "route_type_name": "Bus",
+            "vehicle_uri": "/api/nextride/routes/100L/vehicles"
+        },
+        {
+            "icon_uri": "http://www.iconsdb.com/icons/download/color/FFA87D/bus-16.png",
+            "item_id": "a763c0cf-cce1-49d5-957e-0e5e73d788a4",
+            "route_id": "402L",
+            "route_type_name": "Bus",
+            "vehicle_uri": "/api/nextride/routes/402L/vehicles"
+        },
+        {
+            "icon_uri": "http://www.iconsdb.com/icons/download/color/006275/bus-16.png",
+            "item_id": "a9318d2c-528c-478e-af93-3cfb51ff7fe7",
+            "route_id": "228",
+            "route_type_name": "Bus",
+            "vehicle_uri": "/api/nextride/routes/228/vehicles"
+        },
+        {
+            "icon_uri": "http://www.iconsdb.com/icons/download/color/006275/bus-16.png",
+            "item_id": "ad6208b4-9e83-4c6a-b0c7-db5d5bad1097",
+            "route_id": "51",
+            "route_type_name": "Bus",
+            "vehicle_uri": "/api/nextride/routes/51/vehicles"
+        },
+        {
+            "icon_uri": "http://www.iconsdb.com/icons/download/red/bus-16.png",
+            "item_id": "b8504f84-35bc-4361-8c89-8facd83c6e83",
+            "route_id": "105",
+            "route_type_name": "Bus",
+            "vehicle_uri": "/api/nextride/routes/105/vehicles"
+        },
+        {
+            "icon_uri": "http://www.iconsdb.com/icons/download/color/006275/bus-16.png",
+            "item_id": "ce7f6507-af18-4a95-bf3e-36febd3ce787",
+            "route_id": "15",
+            "route_type_name": "Bus",
+            "vehicle_uri": "/api/nextride/routes/15/vehicles"
+        },
+        {
+            "icon_uri": "http://www.iconsdb.com/icons/download/color/006275/bus-16.png",
+            "item_id": "e546c154-6674-46d0-9643-da04c15a488d",
+            "route_id": "80",
+            "route_type_name": "Bus",
+            "vehicle_uri": "/api/nextride/routes/80/vehicles"
+        },
+        {
+            "icon_uri": "http://www.iconsdb.com/icons/download/color/006275/bus-16.png",
+            "item_id": "ecf7fb25-76b3-43a3-a4a3-2b94aecac3cf",
+            "route_id": "RX",
+            "route_type_name": "Bus",
+            "vehicle_uri": "/api/nextride/routes/RX/vehicles"
+        }
+    ],
+    "name": "routes",
+    "permissions": {
+        "Anonymous": 1
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "route_type_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "route_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "vehicle_uri",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "icon_uri",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
